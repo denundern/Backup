@@ -150,7 +150,7 @@ trim() {
 }
 
 IP=$(ip route get 1 | sed -n 's/^.*src \([0-9.]*\) .*$/\1/p')
-caption="${caption}\n\n${SJBackuper}\n<code>${IP}</code>\nCreated by @AC_Lover - https://github.com/Denumen/MarzBackup"
+caption="${caption}\n\n${SJBackuper}\n<code>${IP}</code>\nCreated by @Suppvm - https://github.com/Denumen/MarzBackup"
 comment=$(echo -e "$caption" | sed 's/<code>//g;s/<\/code>//g')
 comment=$(trim "$comment")
 
