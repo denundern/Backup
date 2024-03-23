@@ -1,3 +1,3 @@
 # MarzBackup
 
-bash <(curl -Ls https://github.com/Denumen/MarzBackup/raw/main/backup.sh)
+bash <(curl -Ls https://github.com/Denumen/Backup/raw/main/backup.sh)
